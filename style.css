@@ -197,7 +197,7 @@ a {
 
 .popup{
     position: fixed;
-    top: 20%; 
+    top: 12%; 
     left: 100px; right:100px;
     width: 1000px;
     margin: auto;
@@ -208,4 +208,68 @@ a {
     display: none;
     text-align: left;
     box-shadow: 5px 5px 500px 800px rgba(1, 1, 17, 0.521);
+}
+
+.corpo_mensagem_informativo {
+    text-align: justify;
+}
+
+.popup > header > a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    right: -98%;
+}
+
+@media screen and (max-width:768px) {
+
+    header {
+        display: none;
+    }
+
+    .foto_perfil {
+        display: contents;
+    }
+
+    .cv a {
+        margin-right: 0rem !important
+    }
+
+    #home {
+        padding-bottom: 0;
+    }
+
+    #cx_home {
+        padding-bottom: 0rem !important;
+    }
+
+    #sobre {
+        padding-bottom: 0rem !important;
+
+    }
+
+	.filme_principal article div {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.botao {
+		margin-top: 10px;
+		width: 300px;
+	}
+
+    .popup {
+        width: 100%;
+        border: none;
+        top: 0;
+        right: 0;
+        left: 0;
+        border-radius: 0;
+    }
+
+    #icon-grid {
+        padding-bottom: 0rem !important;
+    }
+
 }
