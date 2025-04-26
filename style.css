@@ -83,7 +83,7 @@
 
 #magico {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
-    100%), url('img/abracadabra.png');
+    100%), url('img/magico.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,6 +228,10 @@ a {
     font-weight: bold;
     position: relative;
     right: -98%;
+}
+
+.item > img {
+    display: block;
 }
 
 @media screen and (max-width:768px) {

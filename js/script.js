@@ -77,6 +77,16 @@ function fechar_popup_benvinda(){
     document.body.style.overflow = "scroll";
 }
 
+function abrir_popup_commedia(){
+    document.getElementById('popup_commedia').style.display = 'block';
+    document.body.style.overflow = "hidden";
+}
+
+function fechar_popup_commedia(){
+    document.getElementById('popup_commedia').style.display = 'none';
+    document.body.style.overflow = "scroll";
+}
+
 /** Iluminação */
 
 function abrir_popup_lis(){
