@@ -65,6 +65,14 @@
     background-repeat: no-repeat;
 }
 
+#commedia {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/dell\ art.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #lis {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
     100%), url('img/lisistrata.png');
