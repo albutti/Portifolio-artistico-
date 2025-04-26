@@ -284,11 +284,18 @@ a {
         border-radius: 0;
         overflow: hidden;
         overflow-y: auto;
-        height: 667px;
+        height: 900px;
+    }
+
+    .contato {
+        display: grid;
+        grid-template-columns: none;
     }
 
     #icon-grid {
         padding-bottom: 0rem !important;
     }
+
+
 
 }
