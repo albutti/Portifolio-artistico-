@@ -259,6 +259,22 @@ a {
 		width: 300px;
 	}
 
+    .topo_inicial {
+        margin-top: -17px;
+        display: block;
+        height: 30px;
+        width: 30px;
+        position: relative;
+        right: -85%;
+        margin-bottom: 16px;
+
+    }
+
+    .topo_inicial > .botao {
+        padding-top: 0;
+        font-size: 33px;
+    }
+
     .popup {
         width: 100%;
         border: none;
