@@ -134,6 +134,19 @@ h3 {
     text-align: center;
 }
 
+.ano {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    width: 50px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 5%; 
+}
+
 .contato {
     display: grid;
     grid-template-columns: 50% 50%;
