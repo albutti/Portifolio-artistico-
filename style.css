@@ -1,0 +1,179 @@
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.foto_avatar {
+    width: 50px;
+    height: 50px;
+}
+
+#home {
+    padding-bottom: 45px;
+}
+
+#campo_trabalhos {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+#fantastica {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/galo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#tempestade {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/tempestade.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#assis {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/assis.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#visita {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/visita.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#leais {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/os\ leais.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#benvinda {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/benvinda.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#lis {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/lisistrata.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#magico {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/abracadabra.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#abracadabra {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/abracadabra.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#dna2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/rio\ de\ sangue.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#rio_de_sangue {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)
+    100%), url('img/rio\ de\ sangue.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contato {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#campo_de_trabalho {
+    height: 394px;
+    width: 364px;
+}
+
+.col {
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+.texto_branco {
+    color: white;
+}
+
+.ferramenta_portifolio {
+    background-color: rgb(77, 76, 76);
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contato {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 50px;
+}
+
+.email {
+    align-items: center;
+}
+
+#item_contato_e {
+    color: #0364b8;
+}
+
+#item_contato_e:hover {
+    background-color: #0364b8;
+    color: rgb(250, 250, 250);
+}
+
+#item_contato_w {
+    color: rgb(7, 141, 0);;
+}
+
+#item_contato_w:hover {
+    background-color: rgb(7, 141, 0);
+    color: rgb(250, 250, 250);
+}
+
+.lead {
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+}
+
+#inst:hover {
+    color: rgb(247, 13, 169)
+}
+
+#git:hover {
+    color: blueviolet;
+}
